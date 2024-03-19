@@ -1,0 +1,23 @@
+
+<!-- saved from url=(0067)file:///E:/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>are you lucky</title>
+<script>
+function randomRedirect() {
+    var randomNumber = Math.random(); // 生成一个[0, 1)之间的随机数
+    if (randomNumber < 0.25) {
+        window.location.href = 'http://example.com/page1';
+    } else if (randomNumber < 0.5) {
+        window.location.href = 'http://example.com/page2';
+    } else if (randomNumber < 0.75) {
+        window.location.href = 'http://example.com/page3';
+    } else {
+        window.location.href = 'http://example.com/page4';
+    }
+}
+</script>
+</head>
+<body onload="randomRedirect()">
+
+</body></html>
